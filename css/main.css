@@ -1,0 +1,71 @@
+/************** Main Site Style **************/
+body {
+  background: black;
+  color: white;
+	font-family: 'Quicksand', sans-serif;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.wrapper {
+	flex: 1;
+	padding:10px;
+}/*** Sticky footer class**/
+
+.main-footer {
+  margin: 0 0 5px 5px;
+}
+
+.banner {
+  display: flex;
+  margin-top: 20px;
+}
+
+h1 {
+  margin: 60px 0 0 20px;
+  font-size: 2rem
+}
+
+p {
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 0 0 0 10px;
+}
+
+ img {
+   width: 100%;
+   margin: 0;
+ }
+
+.col {
+  width: 48%;
+}
+
+h3 {
+  display: none;
+}
+
+a {
+  color: #a91414;
+  text-decoration: none;
+}
+
+.email {
+  align-self: left;
+  color: #a91414;
+}
+
+@media only screen and (max-width: 600px) {
+
+.banner {
+  flex-direction: column-reverse;
+
+}
+
+.col {
+  width: 100%;
+}
+
+
+}
